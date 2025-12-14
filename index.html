@@ -14,61 +14,65 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Poppins:wght@300&display=swap"
         rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&family=Satisfy&family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    
 </head>
 
 <body>
     <header>
         <nav>
             <div class="logo">AAKRITI</div>
-            <div class="menu">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Contact</a>
-                <a href="#">Hire me</a>
-
-                <i class="fa fa-search"></i>
-                <i class="fa fa-moon-o"></i>
+            <div class="hamburger" id="hamburger">
+                <i class="fa fa-bars"></i>
             </div>
+            
+            <div class="menu" id="nav-menu">
+                <a href="#">Home</a>
+                <a href="#bio">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+
         </nav>
 
         <div class="container">
-            <div class="left">
+            <div class="left reveal">
                 <h2>Hi, I'm Aakriti Das</h2>
-                <h1>UI/UX Designer</h1>
-                <p>I'm Computer Engineering Student focusing on UI/UX designning and frontend developing.
-                    Also has a great intrest on QA Engineering.I can give your business a new creative start right away!
-                    Contact me and we'll discuss your projects!
+                <h1>QA Engineer</h1>
+                <!-- <p>I'm Computer Engineering Student focusing on Quality Assurance.I can give your business a new creative start right away!
+                    Contact me and we'll discuss your services!
 
-                </p>
+                </p> -->
                 <br><br>
-                <div>
-                    <a href="#" id="hire">Hire me</a>
-                    <a href="#" id="myp">My Portfolio</a>
+                <div class="btn-box">
+                    <a id="hire" href="#">Hire me</a>
+                    <a id="myp" href="#">Download CV</a>
                 </div>
+
             </div>
-            <div class="right">
-                <img src="images/a.png">
+            <div class="right reveal">
+                <img src="images/test.png">
             </div>
         </div>
     </header>
 
 
-    <section id="bio">
-        <div class="leftbio">
-            <img src="./images/aa.png">
+    <section id="bio" class="reveal">
+        <div class="leftbio reveal">
+            <img src="./images/test.png">
         </div>
-        <div class="rightbio">
+        <div class="rightbio reveal">
             <div>
-                <p>MY BIOGRAPHY</p>
-                <h1>A UI/UX designer and Frontend web developer</h1>
-                <p>I'm Computer Engineering Student focusing on UI/UX designning and frontend developing.
-                    Also has a great intrest on QA Engineering.I can give your business a new creative start right away!
-                    Contact me and we'll discuss your projects!
+                <p>ABOUT ME</p>
+                <h1>QA Engineer</h1>
+                <p>With a background in Computer Engineering and a focus on Quality Assurance, I bring fresh, creative solutions to elevate
+                your business. Let's connect and turn your services into success stories!
                 </p>
                 <hr>
             </div>
-            <div class="info">
+            <div class="info reveal">
                 <div>
                     <p>
                         <b>Name:</b>
@@ -76,55 +80,114 @@
                     </p>
                     <p>
                         <b>Email:</b>
-                        aakritidas2059@gmail.com
+                        contact.aakriti.in@gmail.com
                     </p>
                 </div>
                 <div>
                     <p><b>From:</b> Kathmandu,Nepal</p>
-                    <p><b>Phone:</b> +977 986 269 5444</p>
+                    <!-- <p><b>Phone:</b> +977 9862695444</p> -->
                 </div>
             </div>
             <div id="follow">
                 <p>
                     <b>Follow me on:</b>
-                    <i class="fa fa-facebook"></i>
-                    <i class="fa fa-instagram"></i>
-                    <i class="fa fa-whatsapp"></i>
-                    <i class="fa fa-twitter"></i>
-
+                    <a href="https://www.linkedin.com/in/aakriti-das-338303209/" target="_blank">
+                        <i class="fa fa-linkedin"> </i>
+                    </a>
+                    <a href="https://www.facebook.com/aakreety.das/" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/_aakriti_das" target="_blank">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/9779862695444" target="_blank">
+                        <i class="fa fa-whatsapp"></i>
+                    </a>
+                    
+                
+                    <a href="https://github.com/aakriti-das" target="_blank">
+                        <i class="fa fa-github"></i>
+                    </a>
+                
                 </p>
+
             </div>
-            <div class="link-h">
-                <a href="#" id="hire">Hire me</a>
-                <a href="#" id="cv">Download CV</a>
-            </div>
+            
         </div>
     </section>
 
     <section id="services">
-        <div class="intro">
-            <h1>What i do for you?</h1>
+        <div class="intro reveal">
+            <h1>Services</h1>
             <div class="card">
-                <div class="cardbody">
+                <div class="cardbody reveal">
                     <i class="fa fa-lock"></i>
-                    <h3>Graphic Design</h3>
-                    <p>I can service you with my mesmerising graphic design</p>
+                    <h3>Manual Testing</h3>
+                    <p>Identify bugs and ensure software works as expected through detailed manual testing.</p>
                 </div>
 
                 <div class="cardbody">
                     <i class="fa fa-lock"></i>
-                    <h3>Frontend Development</h3>
-                    <p>I can service you with my mesmerising frontend development</p>
+                    <h3>Automation Testing</h3>
+                    <p>Create automated test scripts using tools to speed up testing and improve reliability.</p>
                 </div>
 
                 <div class="cardbody">
                     <i class="fa fa-lock"></i>
-                    <h3>Content Writing</h3>
-                    <p>I can service you with my mesmerising content writing</p>
+                    <h3>Test Strategy & Reporting</h3>
+                    <p>Design test plans, strategies, and provide detailed reports to ensure bug-free software.</p>
                 </div>
             </div>
         </div>
     </section>
+    <section id="contact" class="contact-section-wrapper reveal">
+        <div class="contact-section">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p id="status"></p>
+        </div>
+    </section>
+
+
+<footer class="footer">
+    <div class="footer-single-line">
+        <h2 class="footer-logo">Aakriti</h2>
+        <div class="footer-rights">
+            © 2025 Aakriti. All Rights Reserved.
+        </div>
+        <div class="footer-social">
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+        </div>
+       
+    </div>
+</footer>
+
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script src="contact.js"></script>
+    <script src="about.js"></script>
+    <script src="scrollReveal.js"></script>
+
+
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+
+    hamburger.addEventListener('click', () => {
+        navMenu.classList.toggle('show');
+    });
+</script>
+
 </body>
 
 </html>
